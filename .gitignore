@@ -1,0 +1,38 @@
+# --- Compiled Pure Data externals (all platforms) ---
+# pd-lib-builder emits these next to the sources; they are build products.
+*.pd_darwin
+*.pd_linux
+*.pd_freebsd
+*.pd_win
+*.dll
+*.dll.a
+*.d_*
+*.l_*
+*.b_*
+*.m_*
+*.so
+*.dylib
+
+# --- Object / intermediate build files ---
+*.o
+*.obj
+*.lo
+*.d
+*.a
+
+# --- Render / test artifacts ---
+*.wav
+*.aiff
+
+# --- macOS ---
+.DS_Store
+.AppleDouble
+._*
+
+# --- Editors / tooling ---
+.claude/
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
